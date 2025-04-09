@@ -8,7 +8,7 @@ int main()
     cout << "Enter number of iterations: ";
     cin >> n;
 
-    for (int i = 0; i < n; i++)
+    for (int i = 1; i <= n; i++)
     {
         // Calculate A = 1000 * n^3
         double A = 1000 * pow(i, 3);
